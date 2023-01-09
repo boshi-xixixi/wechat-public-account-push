@@ -8,13 +8,13 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx223e6848c4fd75fb',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '16c5b3b1a00f22a753be887dad64c3c0',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '大连',
+  CITY: '金州',
 
   USERS: [
     {
@@ -51,13 +51,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'iPjmk5P6HCwxVKHcp6pGW0CvrQMMs_h3Je-VPnwrH1w',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o4GaL5kjqZIoxKtVqvHVop5iheCQ	',
     }
   ],
 
