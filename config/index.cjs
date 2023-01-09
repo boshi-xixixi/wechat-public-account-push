@@ -50,7 +50,7 @@ const USER_CONFIG = {
     earthyLoveWords: false,
     
     // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    momentCopyrighting: true,
+    momentCopyrighting: false,
     
     // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     poisonChickenSoup: false,
@@ -230,6 +230,32 @@ const USER_CONFIG = {
           type: '生日', name: '博士', year: '2005', date: '01-03',
         },
       ],
+      customizedDateList: [],
+      courseSchedule: null
+    },
+    {
+      name: '老婆2',
+      id: '',
+      useTemplateId: '',
+      province: '',
+      city: '',
+      horoscopeDate: '',
+      horoscopeDateType: '',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [],
+      customizedDateList: [],
+      courseSchedule: null
+    },
+    {
+      name: '老婆3',
+      id: '',
+      useTemplateId: '',
+      province: '',
+      city: '',
+      horoscopeDate: '',
+      horoscopeDateType: '',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [],
       customizedDateList: [],
       courseSchedule: null
     }
