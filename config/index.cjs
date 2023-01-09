@@ -235,7 +235,7 @@ const USER_CONFIG = {
     },
     {
       name: '小羊',
-      id: 'o4GaL5i9u-lu1eJGWmYTABK-LrNo',
+      id: 'o4GaL5jOKO_4rrI7hnX2loF4frUg',
       useTemplateId: 'vO9SQHIyLkQrJGYbegQGtgFAVHHJSkCbeNU_p7ipdPY',
       province: '大连',
       city: '瓦房店',
@@ -245,11 +245,11 @@ const USER_CONFIG = {
       festivals: [ 
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '博士', year: '2004', date: '12-03',
+          type: '*生日', name: '小羊', year: '2004', date: '12-03',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '博士', year: '2006', date: '01-02',
+          type: '生日', name: '小羊', year: '2006', date: '01-02',
         },
       ],
       customizedDateList: [],
