@@ -108,13 +108,13 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '博士',
+      name: '可可爱爱的世博',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
       id: 'o4GaL5i9u-lu1eJGWmYTABK-LrNo',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'V7cNxidR-eomfvGE_EGLz0sLfl3I0i1a8ZkI4zNVHc8',
+      useTemplateId: 'h1EmFPBqfhXGDILc5EtncOBHrgEdyTxLPjTDaBFFc7c',
       // 所在省份或城市，也可以不填
       province: '大连',
       // 所在城市或县区
@@ -129,11 +129,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '博士', year: '2005', date: '01-03',
+          type: '*生日', name: '世博', year: '2004', date: '11-23',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '博士', year: '2005', date: '01-03',
+          type: '生日', name: '世博', year: '2005', date: '01-03',
         },
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -214,16 +214,16 @@ const USER_CONFIG = {
     {
       name: '世博',
       id: 'o4GaL5kjqZIoxKtVqvHVop5iheCQ',
-      useTemplateId: 'GEZAvdjzXF-TWocI12tVAR3XlJ5tR6lzv2w2kaag9O0',
+      useTemplateId: 'h1EmFPBqfhXGDILc5EtncOBHrgEdyTxLPjTDaBFFc7c',
       province: '大连',
-      city: '瓦房店',
+      city: '金州',
       horoscopeDate: '01-03',
       horoscopeDateType: '今日',
       openUrl: '101.43.153.190',
       festivals: [ 
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '博士', year: '2005', date: '01-03',
+          type: '*生日', name: '博士', year: '2004', date: '11-23',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -234,28 +234,24 @@ const USER_CONFIG = {
       courseSchedule: null
     },
     {
-      name: '老婆2',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆3',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
+      name: '小羊',
+      id: 'o4GaL5i9u-lu1eJGWmYTABK-LrNo',
+      useTemplateId: 'vO9SQHIyLkQrJGYbegQGtgFAVHHJSkCbeNU_p7ipdPY',
+      province: '大连',
+      city: '瓦房店',
+      horoscopeDate: '01-03',
+      horoscopeDateType: '今日',
+      openUrl: '101.43.153.190',
+      festivals: [ 
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '博士', year: '2004', date: '12-03',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '博士', year: '2006', date: '01-02',
+        },
+      ],
       customizedDateList: [],
       courseSchedule: null
     }
