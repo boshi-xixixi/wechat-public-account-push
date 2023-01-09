@@ -216,7 +216,7 @@ const USER_CONFIG = {
       id: 'o4GaL5kjqZIoxKtVqvHVop5iheCQ',
       useTemplateId: 'GEZAvdjzXF-TWocI12tVAR3XlJ5tR6lzv2w2kaag9O0',
       province: '大连',
-      city: '金州',
+      city: '瓦房店',
       horoscopeDate: '01-03',
       horoscopeDateType: '今日',
       openUrl: '101.43.153.190',
